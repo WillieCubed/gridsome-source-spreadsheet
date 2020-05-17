@@ -1,0 +1,33 @@
+{
+  "name": "gridsome-transformer-spreadsheet",
+  "version": "0.1.0",
+  "description": "A Gridsome source plugin for handling Microsoft Excel spreadsheets",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prepublish": "tsc",
+    "build": "tsc",
+    "test": "tsc && mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WillieCubed/gridsome-source-spreadsheet.git"
+  },
+  "keywords": [
+    "gridsome-plugin",
+    "gridsome"
+  ],
+  "author": "Willie Chalmers III <dev@williecubed.me> (https://williecubed.me)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WillieCubed/gridsome-source-spreadsheet/issues"
+  },
+  "homepage": "https://williecubed.github.io/gridsome-source-spreadsheet",
+  "devDependencies": {
+    "mocha": "^7.1.2",
+    "typescript": "^3.9.2"
+  },
+  "dependencies": {
+    "xlsx": "^0.16.1"
+  }
+}
