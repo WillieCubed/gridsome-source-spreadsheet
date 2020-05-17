@@ -1,7 +1,7 @@
 # Gridsome Spreadsheet Transformer Plugin
 
 ## Usage
-The plugin converts workbook files into an arrays containing array entries for
+The plugin converts workbook files into objects containing entries for
 each sheet. Each array contains objects with keys corresponding to
 the columns of the first row of the sheet.
 
@@ -10,7 +10,7 @@ Installation:
 npm install gridsome-transformer-spreadsheet
 ```
 
-Add the plugin to your`gridsome.config.js` file should look like:
+Add the plugin to your`gridsome.config.js`:
 ```
 module.exports = {
   plugins: [
