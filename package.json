@@ -28,6 +28,6 @@
     "typescript": "^3.9.2"
   },
   "dependencies": {
-    "xlsx": "^0.16.1"
+    "xlsx": "^0.17.0"
   }
 }
